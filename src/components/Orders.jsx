@@ -7,11 +7,11 @@ import rice from "/images/rice.png";
 
 const Orders = () => {
   const products = [
-    { id: 1, title: 'Egg', description: 'The Bangle Egg Farm', price: 15, image: egg, trackingNumber: '11803001' },
+    { id: 1, title: 'Egg', description: 'The Bengal Egg Farm', price: 15, image: egg, trackingNumber: '11803001' },
     { id: 2, title: 'Chicken', description: 'Black n white Chicken farm', price: 200, image: chicken, trackingNumber: '4236246' },
     { id: 3, title: 'Cow', description: 'Cow from how cow shop', price: 700, image:cow, trackingNumber: '623547156435654' },
-    { id: 4, title: 'potato', description: 'Pran potato', price: 60, image: potato, trackingNumber: '143343254' },
-   { id: 5, title: 'rice', description: ' Richmans rice ', price: 65, image: rice, trackingNumber: '2354436587' }
+    { id: 4, title: 'Potato', description: 'Pran potato', price: 60, image: potato, trackingNumber: '143343254' },
+   { id: 5, title: 'Rice', description: ' Richmans rice ', price: 65, image: rice, trackingNumber: '2354436587' }
   ];
   return (
     <main className='mx-6 lg:mx-48 my-10 grid grid-cols-1 gap-6'>

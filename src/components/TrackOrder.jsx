@@ -6,7 +6,7 @@ const TrackOrder = () => {
   const [orderData, setOrderData] = useState([
     {
       eventDescription: "Order Confirmed",
-      city: "Khilkhet",
+      city: "Pabna",
     },
     {
       eventDescription: "Order Shipped",
@@ -14,7 +14,7 @@ const TrackOrder = () => {
     },
     {
       eventDescription: "Order Delivered",
-      city: "khilkhet",
+      city: "Dhaka",
     },
   ]);
 
