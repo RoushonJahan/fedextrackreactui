@@ -5,7 +5,7 @@ function ProductCard({product}) {
   return (
     <div className="bg-white-shadow-md rounded-md p-4 flex
     justify-around">
-        <img src="{product.image} "width="80px" />
+        <img src={product.image} width="80px" />
         <div>
             <h2 className='text-lg font-semibold'>{product.title}</h2>
             <h2 className='text-sm font-semibold'>{product.description}</h2>
